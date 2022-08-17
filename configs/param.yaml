@@ -1,0 +1,84 @@
+inpatient:
+  details: 'inputs/inpatient.csv'
+  arrival: 'inputs/arrival_rates.csv'
+
+nurse:
+  shift_count: 'inputs/nurse_count.csv'
+  shift_count_proba: [0.3, 0.3, 0.4]
+  shift_schedule: 'inputs/nurse_schedule.csv'
+  triage_duration: 5
+  longer_triage_duration: 30
+
+app:
+  shift_count: 'inputs/app_count.csv'
+  shift_count_proba: [0, 0.5, 0.5]
+  shift_schedule: 'inputs/app_schedule.csv'
+  triage_duration: 10
+  longer_triage_duration: 30
+
+md:
+  shift_count: 'inputs/md_count.csv'
+  shift_count_proba: [0.3, 0.4, 0.3]
+  shift_schedule: 'inputs/md_schedule.csv'
+  triage_duration: 10
+  longer_triage_duration: 30
+
+cm:
+  shift_count: 'inputs/cm_count.csv'
+  shift_count_proba: [0, 0.5, 0.5]
+  shift_schedule: 'inputs/cm_schedule.csv'
+  triage_duration: 10
+  longer_triage_duration: 30
+
+bed_staff:
+  shift_count: 'inputs/bed_staff_count.csv'
+  shift_count_proba: [0, 0.5, 0.5]
+  shift_schedule: 'inputs/bed_staff_schedule.csv'
+  triage_duration: 10
+  longer_triage_duration: 30
+
+pharmacist:
+  shift_count: 'inputs/pharm_count.csv'
+  shift_count_proba: [0, 0.5, 0.5]
+  shift_schedule: 'inputs/pharm_schedule.csv'
+  triage_duration: 10
+  longer_triage_duration: 30
+
+registration:
+  duration: 1
+
+rounding_start:
+  mean: 8
+  std: 15
+
+rounding_duration: 15
+
+floor_change_duration: 10
+
+discharge_order_duration:
+  mean: 60
+  std: 5
+
+discharge_process_duration:
+  mean: [45, 85]
+  std: [5, 5]
+
+medication_duration:
+  mean: 60
+  std: 5
+
+case_management_duration:
+  mean: 45
+  std: 5
+
+equipment_duration:
+  mean: 20
+  std: 5
+
+transport_duration:
+  mean: 30
+  std: 5
+
+bed_clean_duration:
+  mean: 30
+  std: 5

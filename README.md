@@ -1,0 +1,2 @@
+This code repository helps you create synthetic data from process steps in discharge of a patient in a inpatient hospital.
+The data generated form this code was used in my talk at [AI4 2022 event](https://ai4.io/usa/).
